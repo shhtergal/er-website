@@ -9,7 +9,7 @@
     "start": "next start",
     "lint": "eslint",
     "predeplot":"npm run build",
-    "deploy":"er-website -d build"
+    "deploy":"gh-pages -d build"
     
   },
   "dependencies": {
