@@ -1,17 +1,12 @@
 {
   "compilerOptions": {
-    "target": "es2022",
-    "module": "es2022",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
+    "target": "ES2022",
+    "module": "ES2022",
+    "moduleResolution": "Bundler",
     "strict": true,
     "skipLibCheck": true,
-    "paths": {
-      "$amplify/*": [
-        "../.amplify/generated/*"
-      ]
-    }
-  }
+    "outDir": "dist",
+    "types": ["node"]
+  },
+  "include": ["**/*.ts"]
 }
